@@ -4,7 +4,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, MessageHandler, Filters, CallbackContext
 
 # ✅ Get token from environment variable
-TOKEN = os.getenv("8542542148:AAELATeMMg9jOA4qCMMVZe-KqfgBYu01r74")
+TOKEN = os.getenv("BOT_TOKEN")
 
 # ❌ Stop if token missing
 if TOKEN is None:
